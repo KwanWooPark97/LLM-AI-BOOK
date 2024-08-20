@@ -72,3 +72,48 @@ $x_\text{norm} = (x-x_\text{mean})/x_\text{std}$
 
 ![https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_nomal.png](https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_nomal.png)  
 
+
+# 인코더  
+![https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_encoder.png](https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_encoder.png)  
+원래 밑에 위치 인코딩이랑 토큰 임베딩 층이 있어야함  
+
+# 디코더  
+![https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_decoder.png](https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_decoder.png)  
+
+인코더와 다른 점은 마스크드 멀티 헤드 어텐션을 사용한다.  
+디코더는 생성을 담당하는 부분으로, 사람이 글을 쓸 때 앞 단어부터 순차적으로 작성하는 것처럼  
+모델도 앞에서 생성한 토큰을 기반으로 다음 토큰을 생성한다.  
+이런 특징을 인과적(causal) 또는 자기 회귀적(auto-regressive)라고 한다.  
+중간에 인코더에서 들어오는 줄이 있다. 코드를 보면 확실히 알 수 있는데  
+인코더에서 계산한 키와 벨류를 가져와서 사용한다. 이를 크로스 어텐션으로 부른다.    
+
+트랜스포머 아키텍처를 활용한 모델은 크게 세 가지 그룹으로 나눈다. 
+1. 인코더만 활용해 자연어 이해(Natural Language Understanding,NLU)
+2. 디코더만 활용해 자연어 생성(Natural Language Generation,NLG)
+3. 인코더와 디코더를 모두 활용해 더 넓은 범위의 작업
+
+![https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_ad.drawio.png](https://github.com/KwanWooPark97/LLM-AI-BOOK/blob/main/img/2_ad.drawio.png)  
+
+# 1. 인코더를 활용한 BERT  
+인코더만을 활용해 자연어 이해 작업에 집중한 대표적인 모델은 BERT(Bidirectional Encoder Representations from Transformers)이다.  
+이름에서 알 수 있듯이 양방향 문맥을 모두 활용해 텍스트를 이해한다.  
+입력 토큰의 일부를 마스크 토큰으로 대체하고 그 마스크 토큰을 맞추는 마스크 언어 모델링(MLM) 과제를 통해 사전 학습한다.  
+이후 다운스트림 과제에 따라 미세 조정하여 사용한다.  
+BERT는 텍스트 분류 뿐만 아니라 토큰 분류, 질문 답변, 자연어 추론 등 다양한 자연어 이해 작업에서 훌륭한 성능을 보인다.  
+# 2. 디코더를 활용한 GPT  
+GPT(Generative Pre-trained Transformer)는 생성 작업을 위해 만든 모델이다.  
+생성 작업의 경우 입력 토큰이나 이전까지 생성한 토큰만을 문맥으로 활용하는 인과적 언어 모델링(Causal Language Modeling,CLM)을  
+사용하므로 단방향 방식이다.  
+GPT는 다음 토큰을 예측하는 방식으로 사전 학습한다.  
+GPT는 개발 버전이 최신 일 수록 모델이 엄청나게 커진다.  
+이 책에서 다루는 LLM은 대부분 디코더만을 사용한 생성 모델이다.  
+# 3. 인코더와 디코더를 모두 사용하는 BART,T5  
+BART(Bidirectional and Auto-Regressive Transformers) 와 T5(Text-to-Text Transfer Transformer)는 자연어 처리 분야에서  
+인코더-디코더 트랜스포머 아키텍처를 대표하는 모델이다.  
+BART는 사전 학습하기 위해 입력 테스트에 노이즈를 추가하고 노이즈가 제거된 결과를 생성하는 과제를 수행한다.  
+T5는 모든 자연어 처리 작업은 결국 Text-to-Text 라는 아이디어를 바탕으로 한다.  
+입력의 시작에 과제 종류를 지정해서 하나의 모델에서 지정한 작업 종류에 따라 다양한 동작을 하도록 학습시켰다.  
+ex)"영어를 한글로 번역:", "문법적 적합성 판단:","문장 유사도 판단:","요약:"  
+
+
+
