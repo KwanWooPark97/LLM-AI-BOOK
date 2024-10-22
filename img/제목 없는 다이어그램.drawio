@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="페이지-1" id="ukxxMPAlmyM7oNkTWLQT">
     <mxGraphModel dx="1434" dy="1941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="240" width="90" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="VUXOVUJdnFgX3zHBfYaI-144" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="600" y="-220" width="270" height="33" as="geometry" />
         </mxCell>
@@ -666,100 +669,179 @@
         <mxCell id="VUXOVUJdnFgX3zHBfYaI-201" value="층 정규화" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="517.5" y="-594" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-1" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;" vertex="1" parent="1">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-1" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="-880" width="680" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-1">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" parent="-EJU2I9zkBBj3N-b47Py-1" vertex="1">
           <mxGeometry width="680" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-3" value="모델 그룹" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-2">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-3" value="모델 그룹" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" parent="-EJU2I9zkBBj3N-b47Py-2" vertex="1">
           <mxGeometry width="81" height="30" as="geometry">
             <mxRectangle width="81" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-4" value="대표 모델" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-2">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-4" value="대표 모델" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" parent="-EJU2I9zkBBj3N-b47Py-2" vertex="1">
           <mxGeometry x="81" width="99" height="30" as="geometry">
             <mxRectangle width="99" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-5" value="장점" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-2">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-5" value="장점" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" parent="-EJU2I9zkBBj3N-b47Py-2" vertex="1">
           <mxGeometry x="180" width="256" height="30" as="geometry">
             <mxRectangle width="256" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-22" value="단점" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-2">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-22" value="단점" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" parent="-EJU2I9zkBBj3N-b47Py-2" vertex="1">
           <mxGeometry x="436" width="244" height="30" as="geometry">
             <mxRectangle width="244" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-1">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" parent="-EJU2I9zkBBj3N-b47Py-1" vertex="1">
           <mxGeometry y="30" width="680" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-7" value="인코더" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-6">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-7" value="인코더" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-6" vertex="1">
           <mxGeometry width="81" height="140" as="geometry">
             <mxRectangle width="81" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-8" value="구글의 BERT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-6">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-8" value="구글의 BERT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-6" vertex="1">
           <mxGeometry x="81" width="99" height="140" as="geometry">
             <mxRectangle width="99" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-9" value="&lt;ul&gt;&lt;li&gt;양방향 이해를 통해 자연어 이해에서 &lt;br&gt;일반적으로 디코더 모델 대비 높은 &lt;br&gt;성능을 보임&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;입력에 대해 병렬 연산이 가능하므로 &lt;br&gt;빠른 학습과 추론이 가능&lt;br&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;다양한 작업에 대한 다운스트림 성능이 뛰어남&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-6">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-9" value="&lt;ul&gt;&lt;li&gt;양방향 이해를 통해 자연어 이해에서 &lt;br&gt;일반적으로 디코더 모델 대비 높은 &lt;br&gt;성능을 보임&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;입력에 대해 병렬 연산이 가능하므로 &lt;br&gt;빠른 학습과 추론이 가능&lt;br&gt;&amp;nbsp;&lt;/li&gt;&lt;li&gt;다양한 작업에 대한 다운스트림 성능이 뛰어남&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=left;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-6" vertex="1">
           <mxGeometry x="180" width="256" height="140" as="geometry">
             <mxRectangle width="256" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-23" value="&lt;ul&gt;&lt;li&gt;자연어 생성 작업에 부적합한 형태&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;컨텍스트의 길이가 제한적임&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-6">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-23" value="&lt;ul&gt;&lt;li&gt;자연어 생성 작업에 부적합한 형태&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;컨텍스트의 길이가 제한적임&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=left;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-6" vertex="1">
           <mxGeometry x="436" width="244" height="140" as="geometry">
             <mxRectangle width="244" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-1">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" parent="-EJU2I9zkBBj3N-b47Py-1" vertex="1">
           <mxGeometry y="170" width="680" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-11" value="디코더" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-10">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-11" value="디코더" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-10" vertex="1">
           <mxGeometry width="81" height="110" as="geometry">
             <mxRectangle width="81" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-12" value="OpenAI의 GPT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-10">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-12" value="OpenAI의 GPT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-10" vertex="1">
           <mxGeometry x="81" width="99" height="110" as="geometry">
             <mxRectangle width="99" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-13" value="&lt;ul&gt;&lt;li&gt;생성 작업에서 뛰어난 성능을 보임&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;비교적 긴 컨텍스트 길이에 대해서도 &lt;br&gt;성능이 좋음&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-10">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-13" value="&lt;ul&gt;&lt;li&gt;생성 작업에서 뛰어난 성능을 보임&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;비교적 긴 컨텍스트 길이에 대해서도 &lt;br&gt;성능이 좋음&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;" parent="-EJU2I9zkBBj3N-b47Py-10" vertex="1">
           <mxGeometry x="180" width="256" height="110" as="geometry">
             <mxRectangle width="256" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-24" value="&lt;ul&gt;&lt;li&gt;양방향이 아닌 단방향 방식이므로&lt;br&gt;자연어 이해 작업에서 비교적 성능이 &lt;br&gt;낮음&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;모든 작업을 생성 작업으로 변환할 수 있으나 비효율적임&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-10">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-24" value="&lt;ul&gt;&lt;li&gt;양방향이 아닌 단방향 방식이므로&lt;br&gt;자연어 이해 작업에서 비교적 성능이 &lt;br&gt;낮음&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;모든 작업을 생성 작업으로 변환할 수 있으나 비효율적임&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;" parent="-EJU2I9zkBBj3N-b47Py-10" vertex="1">
           <mxGeometry x="436" width="244" height="110" as="geometry">
             <mxRectangle width="244" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-1">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" parent="-EJU2I9zkBBj3N-b47Py-1" vertex="1">
           <mxGeometry y="280" width="680" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-15" value="인코더-디코더" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-14">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-15" value="인코더-디코더" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-14" vertex="1">
           <mxGeometry width="81" height="140" as="geometry">
             <mxRectangle width="81" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-16" value="메타의 BART,&lt;div&gt;구글의 T5&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-14">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-16" value="메타의 BART,&lt;div&gt;구글의 T5&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-14" vertex="1">
           <mxGeometry x="81" width="99" height="140" as="geometry">
             <mxRectangle width="99" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-17" value="&lt;ul&gt;&lt;li&gt;생성과 이해 작업 모두에서 뛰어난 &lt;br&gt;성능을 보임&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;이해 작업에서 양방향 방식을 사용할 수 있고 인코더의 결과를 디코더에서&amp;nbsp;&lt;br&gt;활용할 수 있어 문맥을 반영한&amp;nbsp;&lt;br&gt;생성 능력이 뛰어남&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-14">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-17" value="&lt;ul&gt;&lt;li&gt;생성과 이해 작업 모두에서 뛰어난 &lt;br&gt;성능을 보임&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;이해 작업에서 양방향 방식을 사용할 수 있고 인코더의 결과를 디코더에서&amp;nbsp;&lt;br&gt;활용할 수 있어 문맥을 반영한&amp;nbsp;&lt;br&gt;생성 능력이 뛰어남&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-14" vertex="1">
           <mxGeometry x="180" width="256" height="140" as="geometry">
             <mxRectangle width="256" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-EJU2I9zkBBj3N-b47Py-25" value="&lt;ul&gt;&lt;li&gt;인코더와 디코더를 모두 활용하기 &lt;br&gt;때문에 더 복잡함&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;학습에 더 많은 데이터와 컴퓨팅 자원이 필요함&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="-EJU2I9zkBBj3N-b47Py-14">
+        <mxCell id="-EJU2I9zkBBj3N-b47Py-25" value="&lt;ul&gt;&lt;li&gt;인코더와 디코더를 모두 활용하기 &lt;br&gt;때문에 더 복잡함&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;학습에 더 많은 데이터와 컴퓨팅 자원이 필요함&lt;/li&gt;&lt;/ul&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=left;whiteSpace=wrap;html=1;" parent="-EJU2I9zkBBj3N-b47Py-14" vertex="1">
           <mxGeometry x="436" width="244" height="140" as="geometry">
             <mxRectangle width="244" height="140" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-1" value="최고의 프로그래밍 언어는?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="979" y="31" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-2" value="최고의 프로그래밍 언어는?" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-40" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-3" value="파이썬" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1175" y="-40" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-4" value="학습 데이터" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="-80" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0hQ1n2YjlXsZmbkTdRMv-5" target="0hQ1n2YjlXsZmbkTdRMv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-5" value="LLM" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="1153.33" y="25" width="66.67" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.02;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0hQ1n2YjlXsZmbkTdRMv-1" target="0hQ1n2YjlXsZmbkTdRMv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-7" value="산" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="-5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-8" value="자바" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="15" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-9" value="파이썬" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="35" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-10" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="55" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-11" value="바다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1249" y="75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-16" value="0.7%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="-5" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-17" value="15%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="15" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-18" value="50%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="35" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-19" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="55" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-20" value="0.3%" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1299" y="75" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0hQ1n2YjlXsZmbkTdRMv-21" target="0hQ1n2YjlXsZmbkTdRMv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-21" value="레이블러" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="283" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="0hQ1n2YjlXsZmbkTdRMv-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="387" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-28" value="지도 미세 조정" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0hQ1n2YjlXsZmbkTdRMv-27">
+          <mxGeometry x="-0.0808" y="1" relative="1" as="geometry">
+            <mxPoint x="43" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-22" value="응답" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.search_documents;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="268" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-23" value="지시사항&lt;div&gt;(프롬프트)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1176" y="245" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-25" value="LLM" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="417" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hQ1n2YjlXsZmbkTdRMv-30" value="지시 데이터셋" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1161" y="210" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
